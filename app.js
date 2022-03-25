@@ -7,6 +7,12 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
     res.render('./pages/index');
 });
+app.get('/about', (req, res) => {
+    res.render('./pages/about');
+});
+app.get('/games', (req, res) => {
+    res.render('./pages/games');
+});
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {

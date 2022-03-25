@@ -1,0 +1,10 @@
+$home-hexagon-width: 30rem;
+$home-hexagon-height: $hexagon-width * 0.55;
+
+ul#home {
+  //max-width: 900px;
+  .honeycomb-cell {
+    max-width: $home-hexagon-width !important;
+    height: $home-hexagon-height !important;
+  }
+}

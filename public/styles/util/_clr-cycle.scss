@@ -1,0 +1,67 @@
+@keyframes rgbBackground {
+  0%,
+  100% {
+    background-color: #f00;
+  }
+  17% {
+    background-color: #ff0;
+  }
+  34% {
+    background-color: #0f0;
+  }
+  51% {
+    background-color: #0ff;
+  }
+  68% {
+    background-color: #00f;
+  }
+  85% {
+    background-color: #f0f;
+  }
+}
+
+@keyframes rgbBorder {
+  0%,
+  100% {
+    border-color: #f00;
+  }
+  17% {
+    border-color: #ff0;
+  }
+  34% {
+    border-color: #0f0;
+  }
+  51% {
+    border-color: #0ff;
+  }
+  68% {
+    border-color: #00f;
+  }
+  85% {
+    border-color: #f0f;
+  }
+}
+
+@keyframes rgbText {
+  0%,
+  100% {
+    color: #f00;
+  }
+  17% {
+    color: #ff0;
+  }
+  34% {
+    color: #0f0;
+  }
+  51% {
+    color: #0ff;
+  }
+  68% {
+    color: #00f;
+  }
+  85% {
+    color: #f0f;
+  }
+}
+
+//animation: rgbBorder 10s linear 0s infinite, rgbText 10s linear 0s infinite;
