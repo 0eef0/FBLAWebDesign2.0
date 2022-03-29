@@ -363,7 +363,7 @@ input[type=button] {
   }
 }
 ul#home .honeycomb-cell {
-  max-width: 30rem !important;
+  min-width: 35rem !important;
   height: 24.75vh !important;
 }
 
@@ -396,6 +396,15 @@ ul#home .honeycomb-cell {
 .navbar ul div .menu-button {
   display: none;
   visibility: hidden;
+}
+.navbar ul div .menu-button button {
+  background-color: transparent;
+}
+.navbar ul div .menu-button button .fas {
+  color: white;
+}
+.navbar ul div .menu-button button .fas ::before {
+  color: inherit;
 }
 .navbar ul div .nav-item a,
 .navbar ul div .nav-item button {
@@ -463,6 +472,13 @@ ul#home .honeycomb-cell {
   }
   .navbar ul .links .nav-item {
     background-color: #171717;
+    border-left: 8px white solid;
+    border-right: 8px white solid;
+    animation: rgbBorder 10s linear 0s infinite, rgbText 10s linear 0s infinite;
+  }
+  .navbar ul .links .nav-item:last-child {
+    border-bottom: 8px white solid;
+    animation: rgbBorder 10s linear 0s infinite, rgbText 10s linear 0s infinite;
   }
   .navbar ul .links {
     transform: scaleY(1);

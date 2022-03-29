@@ -24,6 +24,15 @@
       .menu-button {
         display: none;
         visibility: hidden;
+        button {
+          background-color: transparent;
+          .fas {
+            color: white;
+            ::before {
+              color: inherit;
+            }
+          }
+        }
       }
       .nav-item a,
       .nav-item button {
@@ -102,6 +111,17 @@
       flex-direction: column;
       .nav-item {
         background-color: #171717;
+        border: {
+          left: 8px white solid;
+          right: 8px white solid;
+        }
+        animation: rgbBorder 10s linear 0s infinite,
+          rgbText 10s linear 0s infinite;
+        &:last-child {
+          border-bottom: 8px white solid;
+          animation: rgbBorder 10s linear 0s infinite,
+            rgbText 10s linear 0s infinite;
+        }
       }
       // .link {
       //   background-color: $light-background-translucent;
