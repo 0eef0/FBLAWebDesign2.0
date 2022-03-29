@@ -363,8 +363,15 @@ input[type=button] {
   }
 }
 ul#home .honeycomb-cell {
-  min-width: 35rem !important;
+  min-width: 40vw !important;
   height: 24.75vh !important;
+}
+
+ul#games .honeycomb-cell .honeycomb-cell__title {
+  opacity: 0;
+}
+ul#games .honeycomb-cell .honeycomb-cell__title:hover {
+  opacity: 1;
 }
 
 .navbar {

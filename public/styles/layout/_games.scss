@@ -1,0 +1,11 @@
+ul#games {
+  .honeycomb-cell {
+    .honeycomb-cell__title {
+      opacity: 0;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
