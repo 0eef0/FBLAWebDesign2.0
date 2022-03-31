@@ -19,7 +19,7 @@
                     <!-- <img src="<%= party.img %>" class="honeycomb-cell__image"> -->
                     <div class="honeycomb-cell__title">
                         <%= party.partyName %>
-                        <!-- <a href="/parties?id=<%= party._id %>">See Parties</a> -->
+                        <a href="/party?game=<%= games[0]._id %>&id=<%= party._id %>">View Members</a>
                     </div>
                 </li>
             <% } %>

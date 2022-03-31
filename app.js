@@ -11,11 +11,21 @@ const games = [
         img: 'https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
         parties: [
             {
+                _id: 1,
                 partyName: 'Party1',
                 users: [
                     'user1',
                     'user2',
                     'user3',
+                ]
+            },
+            {
+                _id: 2,
+                partyName: 'Party2',
+                users: [
+                    'user4',
+                    'user5',
+                    'user6',
                 ]
             }
         ]
@@ -26,6 +36,7 @@ const games = [
         img: 'https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
         parties: [
             {
+                _id: 1,
                 partyName: 'Party1',
                 users: [
                     'user1',
@@ -41,6 +52,7 @@ const games = [
         img: 'https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
         parties: [
             {
+                _id: 1,
                 partyName: 'Party1',
                 users: [
                     'user1',
@@ -56,6 +68,7 @@ const games = [
         img: 'https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
         parties: [
             {
+                _id: 1,
                 partyName: 'Party1',
                 users: [
                     'user1',
@@ -71,6 +84,7 @@ const games = [
         img: 'https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
         parties: [
             {
+                _id: 1,
                 partyName: 'Party1',
                 users: [
                     'user1',
@@ -96,6 +110,13 @@ app.get('/games', (req, res) => {
 app.get('/parties', (req, res) => {
     res.render('./pages/parties', {
         games,
+        id: req.query.id
+    });
+});
+app.get('/party', (req, res) => {
+    res.render('./pages/party', {
+        games,
+        game: req.query.game,
         id: req.query.id
     });
 });

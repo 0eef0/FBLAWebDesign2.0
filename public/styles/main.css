@@ -382,6 +382,19 @@ ul#games .honeycomb-cell:hover .honeycomb-cell__title {
   opacity: 1;
 }
 
+ul#parties .honeycomb-cell .honeycomb-cell__title {
+  justify-content: space-evenly;
+  align-items: center;
+}
+ul#parties .honeycomb-cell .honeycomb-cell__title a,
+ul#parties .honeycomb-cell .honeycomb-cell__title a:visited {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  border: 2px solid white;
+  width: 80%;
+}
+
 .navbar {
   position: fixed;
   width: 80%;
