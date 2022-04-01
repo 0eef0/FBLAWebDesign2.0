@@ -15,10 +15,21 @@
         <%- include ("../partials/nav.ejs") %>
             <ul class="honeycomb" id="parties">
                 <% let members=games[game-1].parties.filter(party => party._id == id); %>
+                <li class="honeycomb-cell">
+                    <div class="honeycomb-cell__title">
+                        <%= members[0].partyName %>
+                        <br>
+                        "<%= members[0].partyDesc %>"
+                        <br>
+                        <a href="/">Join</a>
+                    </div>
+                </li>
                 <% for(member of members[0].users) { %>
                     <li class="honeycomb-cell">
                         <div class="honeycomb-cell__title">
                             <%= member %>
+                            <br>
+                            <a href="/">Contact Me!</a>
                         </div>
                     </li>
                 <% } %>

@@ -7,21 +7,24 @@ app.use(express.static(__dirname + '/public'));
 const games = [
     {
         _id: 1,
-        name: 'Lorem Ipsum 1',
-        img: 'https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
+        name: 'Bomb Finder',
+        img: './assets/bombFinder.svg',
         parties: [
             {
                 _id: 1,
                 partyName: 'Party1',
+                partyDesc: 'We just wanna have funnnn',
                 users: [
                     'user1',
                     'user2',
                     'user3',
+                    'user4'
                 ]
             },
             {
                 _id: 2,
                 partyName: 'Party2',
+                partyDesc: 'We just wanna have funnnn',
                 users: [
                     'user4',
                     'user5',
@@ -32,12 +35,13 @@ const games = [
     },
     {
         _id: 2,
-        name: 'Lorem Ipsum 2',
-        img: 'https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
+        name: 'Backpac Man',
+        img: './assets/backPacMan.jpg',
         parties: [
             {
                 _id: 1,
                 partyName: 'Party1',
+                partyDesc: 'We just wanna have funnnn',
                 users: [
                     'user1',
                     'user2',
@@ -48,12 +52,13 @@ const games = [
     },
     {
         _id: 3,
-        name: 'Lorem Ipsum 3',
-        img: 'https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
+        name: 'Apple',
+        img: './assets/apple.svg',
         parties: [
             {
                 _id: 1,
                 partyName: 'Party1',
+                partyDesc: 'We just wanna have funnnn',
                 users: [
                     'user1',
                     'user2',
@@ -64,12 +69,13 @@ const games = [
     },
     {
         _id: 4,
-        name: 'Lorem Ipsum 4',
-        img: 'https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
+        name: 'Blockade',
+        img: './assets/blockade.svg',
         parties: [
             {
                 _id: 1,
                 partyName: 'Party1',
+                partyDesc: 'We just wanna have funnnn',
                 users: [
                     'user1',
                     'user2',
@@ -80,12 +86,13 @@ const games = [
     },
     {
         _id: 5,
-        name: 'Lorem Ipsum 5',
-        img: 'https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
+        name: 'Battle Boats',
+        img: './assets/battleBoats.svg',
         parties: [
             {
                 _id: 1,
                 partyName: 'Party1',
+                partyDesc: 'We just wanna have funnnn',
                 users: [
                     'user1',
                     'user2',
