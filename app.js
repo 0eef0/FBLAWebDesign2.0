@@ -29,6 +29,7 @@ const games = [
                     'ProfessinalGamer12',
                     'SnoopD0GG19',
                     'Cbreezy05',
+                    'WillSlappySmith'
                 ]
             }
         ]
@@ -46,6 +47,18 @@ const games = [
                     'KimmyK',
                     'Ye',
                     'Skete',
+                    'Hov'
+                ]
+            },
+            {
+                _id: 2,
+                partyName: 'Purple Backs',
+                partyDesc: 'We fight',
+                users: [
+                    'MeekMilly',
+                    'Nicki148',
+                    'WayneLil10',
+                    'BIGsean405',
                 ]
             }
         ]
@@ -63,6 +76,18 @@ const games = [
                     'MJ23',
                     'KobeBean24',
                     'KDTrey7',
+                    'ChefCurry30'
+                ]
+            },
+            {
+                _id: 2,
+                partyName: 'Unstoppable Machine',
+                partyDesc: 'We live over here',
+                users: [
+                    'Reggie3',
+                    'Klay11',
+                    'Beartron12',
+                    'DonkeyDray23'
                 ]
             }
         ]
@@ -80,6 +105,18 @@ const games = [
                     'LBJ6',
                     'TB12',
                     'BuissnessIsBoomin',
+                    'GronkSmash'
+                ]
+            },
+            {
+                _id: 2,
+                partyName: 'Ocean Kids',
+                partyDesc: 'We just want to vibe',
+                users: [
+                    'JuliusOrange123',
+                    'RJ3',
+                    'GhostTY13',
+                    'LuckyLuck12'
                 ]
             }
         ]
@@ -97,6 +134,18 @@ const games = [
                     'JAYT0',
                     'JayB7',
                     'TheHeartandSoul',
+                    'BigAL'
+                ]
+            },
+            {
+                _id: 2,
+                partyName: 'HurtinBros',
+                partyDesc: 'We Better',
+                users: [
+                    'BennySim10',
+                    'TrollEmbid21',
+                    'JimmyBuckets22',
+                    'Tyler14'
                 ]
             }
         ]
