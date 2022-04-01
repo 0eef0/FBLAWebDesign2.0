@@ -12,23 +12,23 @@ const games = [
         parties: [
             {
                 _id: 1,
-                partyName: 'Party1',
-                partyDesc: 'We just wanna have funnnn',
+                partyName: 'Razzle Dazzle',
+                partyDesc: 'We tryna win over here',
                 users: [
-                    'user1',
-                    'user2',
-                    'user3',
-                    'user4'
+                    'CarelessWhisper123',
+                    'Bonfire03',
+                    'Hypnotize2014',
+                    'Poetry19'
                 ]
             },
             {
                 _id: 2,
-                partyName: 'Party2',
-                partyDesc: 'We just wanna have funnnn',
+                partyName: 'Rockin N Rollin',
+                partyDesc: 'We Vibe',
                 users: [
-                    'user4',
-                    'user5',
-                    'user6',
+                    'ProfessinalGamer12',
+                    'SnoopD0GG19',
+                    'Cbreezy05',
                 ]
             }
         ]
@@ -40,12 +40,12 @@ const games = [
         parties: [
             {
                 _id: 1,
-                partyName: 'Party1',
-                partyDesc: 'We just wanna have funnnn',
+                partyName: 'Hoopaloza',
+                partyDesc: 'We fight',
                 users: [
-                    'user1',
-                    'user2',
-                    'user3',
+                    'KimmyK',
+                    'Ye',
+                    'Skete',
                 ]
             }
         ]
@@ -57,12 +57,12 @@ const games = [
         parties: [
             {
                 _id: 1,
-                partyName: 'Party1',
-                partyDesc: 'We just wanna have funnnn',
+                partyName: 'Untamed Beasts',
+                partyDesc: 'We killing it',
                 users: [
-                    'user1',
-                    'user2',
-                    'user3',
+                    'MJ23',
+                    'KobeBean24',
+                    'KDTrey7',
                 ]
             }
         ]
@@ -74,12 +74,12 @@ const games = [
         parties: [
             {
                 _id: 1,
-                partyName: 'Party1',
-                partyDesc: 'We just wanna have funnnn',
+                partyName: 'Destiny Awaits',
+                partyDesc: 'We the cool kids',
                 users: [
-                    'user1',
-                    'user2',
-                    'user3',
+                    'LBJ6',
+                    'TB12',
+                    'BuissnessIsBoomin',
                 ]
             }
         ]
@@ -91,12 +91,12 @@ const games = [
         parties: [
             {
                 _id: 1,
-                partyName: 'Party1',
-                partyDesc: 'We just wanna have funnnn',
+                partyName: 'WildThings',
+                partyDesc: 'We the best',
                 users: [
-                    'user1',
-                    'user2',
-                    'user3',
+                    'JAYT0',
+                    'JayB7',
+                    'TheHeartandSoul',
                 ]
             }
         ]
