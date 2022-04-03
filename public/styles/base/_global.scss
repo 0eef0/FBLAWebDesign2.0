@@ -54,9 +54,14 @@ body {
       word-break: break-word;
       text-transform: uppercase;
       color: #fff;
-      font-weight: 700;
-      font-size: 1.75em;
+      font-weight: 350;
+      font-size: clamp(1rem, 3vw, 1.75rem);
       transition: opacity 350ms;
+
+      h1 {
+        border-bottom: 2px solid white;
+        font-weight: 700;
+      }
 
       > small {
         font-weight: 300;

@@ -7,8 +7,8 @@ app.use(express.static(__dirname + '/public'));
 const games = [
     {
         _id: 1,
-        name: 'Bomb Finder',
-        img: './assets/bombFinder.svg',
+        name: 'Apple',
+        img: './assets/apple.svg',
         parties: [
             {
                 _id: 1,
@@ -65,8 +65,8 @@ const games = [
     },
     {
         _id: 3,
-        name: 'Apple',
-        img: './assets/apple.svg',
+        name: 'Bomb Finder',
+        img: './assets/bombFinder.svg',
         parties: [
             {
                 _id: 1,
@@ -124,7 +124,7 @@ const games = [
     {
         _id: 5,
         name: 'Battle Boats',
-        img: './assets/battleBoats.svg',
+        img: './assets/battleBoats.jpg',
         parties: [
             {
                 _id: 1,
@@ -175,6 +175,9 @@ app.get('/party', (req, res) => {
         game: req.query.game,
         id: req.query.id
     });
+});
+app.get('/contact', (req, res) => {
+    res.render('./pages/contact');
 });
 
 const port = process.env.PORT || 5000;

@@ -43,9 +43,13 @@ body {
   word-break: break-word;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 700;
-  font-size: 1.75em;
+  font-weight: 350;
+  font-size: clamp(1rem, 3vw, 1.75rem);
   transition: opacity 350ms;
+}
+.honeycomb-cell__title h1 {
+  border-bottom: 2px solid white;
+  font-weight: 700;
 }
 .honeycomb-cell__title > small {
   font-weight: 300;
@@ -395,6 +399,26 @@ ul#parties .honeycomb-cell .honeycomb-cell__title a:visited {
   width: 80%;
 }
 
+ul#contact .honeycomb-cell .honeycomb-cell__title {
+  justify-content: space-evenly;
+  align-items: center;
+  opacity: 0;
+}
+ul#contact .honeycomb-cell .honeycomb-cell__title a,
+ul#contact .honeycomb-cell .honeycomb-cell__title a:visited {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  border: 2px solid white;
+  width: 80%;
+}
+ul#contact .honeycomb-cell:hover img {
+  opacity: 0;
+}
+ul#contact .honeycomb-cell:hover .honeycomb-cell__title {
+  opacity: 1;
+}
+
 .navbar {
   position: fixed;
   width: 80%;
@@ -524,6 +548,14 @@ ul#parties .honeycomb-cell .honeycomb-cell__title a:visited {
   .navbar ul .links.closed .link {
     opacity: 0;
     transition-delay: 0ms;
+  }
+}
+@keyframes clrLogo {
+  0% {
+    filter: sepia(1) saturate(10) hue-rotate(0deg);
+  }
+  100% {
+    filter: sepia(1) saturate(10) hue-rotate(360deg);
   }
 }
 
