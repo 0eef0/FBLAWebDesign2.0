@@ -13,33 +13,38 @@
 
     <body>
         <%- include ("../partials/nav.ejs") %>
-            <ul class="honeycomb">
+            <ul class="honeycomb" id="subscription">
                 <li class="honeycomb-cell">
                     <div class="honeycomb-cell__title">
-                        <h1>Who are we?</h1>
-                        We are simply gamers that firmly believe in making connections with others.
-                    </div>
-                </li>
-                <li class="honeycomb-cell img">
-                    <img src="./assets/smallLogo.png"
-                        class="honeycomb-cell__image">
-                </li>
-                <li class="honeycomb-cell">
-                    <div class="honeycomb-cell__title">
-                        <h1>What do we do?</h1>
-                        We make sure everyone has access to friends with common game interests.
+                        <h1>Username</h1>
+                        <input type="text">
                     </div>
                 </li>
                 <li class="honeycomb-cell">
                     <div class="honeycomb-cell__title">
-                        <h1>Who we do it for?</h1>
-                        We do it for the gamers who have every felt alone playing a game.
+                        <h1>Email</h1>
+                        <input type="text">
                     </div>
                 </li>
                 <li class="honeycomb-cell">
                     <div class="honeycomb-cell__title">
-                        <h1>Why do we do it?</h1>
-                        We do it because we've been in a similar spot to all of our users.
+                        <h1>Password</h1>
+                        <input type="password">
+                        <input type="password" placeholder="Confirm Password">
+                    </div>
+                </li>
+                <li class="honeycomb-cell">
+                    <div class="honeycomb-cell__title">
+                        <h1>Basic Plan</h1>
+                        You can join up to three groups in three different games.
+                        <a href="/">Free!</a>
+                    </div>
+                </li>
+                <li class="honeycomb-cell">
+                    <div class="honeycomb-cell__title">
+                        <h1>Premium Plan</h1>
+                        You can join unlimited groups in unlimited games! Happy gaming!
+                        <a href="/">$3 / mo</a>
                     </div>
                 </li>
             </ul>

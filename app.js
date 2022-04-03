@@ -179,6 +179,9 @@ app.get('/party', (req, res) => {
 app.get('/contact', (req, res) => {
     res.render('./pages/contact');
 });
+app.get('/subscription', (req, res) => {
+    res.render('./pages/subscription');
+});
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {

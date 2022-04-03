@@ -419,6 +419,27 @@ ul#contact .honeycomb-cell:hover .honeycomb-cell__title {
   opacity: 1;
 }
 
+ul#subscription .honeycomb-cell .honeycomb-cell__title {
+  justify-content: space-evenly;
+  align-items: center;
+}
+ul#subscription .honeycomb-cell .honeycomb-cell__title a,
+ul#subscription .honeycomb-cell .honeycomb-cell__title a:visited {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  border: 2px solid white;
+  width: 80%;
+}
+ul#subscription .honeycomb-cell .honeycomb-cell__title input {
+  width: 80%;
+  outline: none;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem;
+}
+
 .navbar {
   position: fixed;
   width: 80%;
